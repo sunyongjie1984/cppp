@@ -58,6 +58,9 @@ public:
     // constructors are explained in section 7.1.4, pages 262 - 265
     // default constructor needed to initialize members of built-in type
 #if defined(IN_CLASS_INITS) && defined(DEFAULT_FCNS)
+    // in centos 6.3 64bit g++ 4.7.0
+    // use the makefile of this folder, IN_CLASS_INITS and DEFAULT_FCNS is defined by default
+    // then when debug under g++ 4.7.0, gdb goes directly here
     Sales_item() = default;
 #else
     Sales_item() : units_sold(5), revenue(5.0) { }
