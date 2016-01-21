@@ -1,6 +1,0 @@
-Ch01AddItem : add_item.o
-	g++ -std=c++0x -g -Wall add_item.cpp -o Ch01AddItem
-add_item.o : add_item.cpp
-	g++ -std=c++0x -g -Wall -c add_item.cpp -o add_item.o
-clean:
-	rm -rf *.o Ch01AddItem *.gch
