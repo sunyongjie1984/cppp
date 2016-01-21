@@ -27,8 +27,8 @@
  * 	Fax: (201) 236-3290
 */
 
-#include <iostream>
-#include "Sales_item.h"
+#include <iostream>     // for standard library
+#include "Sales_item.h" // for user defined classes
 
 int main()
 {
