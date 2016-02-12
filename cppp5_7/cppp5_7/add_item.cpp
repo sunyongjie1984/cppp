@@ -1,10 +1,10 @@
 #include <iostream>
+#include "Sales_data.h"
+
 using std::cerr;
 using std::cin;
 using std::cout;
 using std::endl;
-
-#include "Sales_data.h"
 
 int main()
 {
@@ -22,6 +22,6 @@ int main()
     {
         cerr << "Input failed!" << endl;
     }
-    system("pause");
+    getchar();
     return 0;
 }
