@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEFAULT_FCNS	Sales_item.h	44;"	d
+GetUnitsSold	Sales_item.h	/^    unsigned GetUnitsSold() const { return units_sold; }$/;"	f	class:Sales_item
+IN_CLASS_INITS	Sales_item.h	43;"	d
+SALESITEM_H	Sales_item.h	39;"	d
+Sales_item	Sales_item.h	/^    Sales_item() : units_sold(5), revenue(5.0) { }$/;"	f	class:Sales_item
+Sales_item	Sales_item.h	/^    Sales_item(const std::string &book) :$/;"	f	class:Sales_item
+Sales_item	Sales_item.h	/^    Sales_item(std::istream &is) { is >> *this; }$/;"	f	class:Sales_item
+Sales_item	Sales_item.h	/^class Sales_item {$/;"	c
+VERSION_TEST_H	Version_test.h	31;"	d
+avg_price	Sales_item.h	/^double Sales_item::avg_price() const$/;"	f	class:Sales_item
+bookNo	Sales_item.h	/^    std::string bookNo;      \/\/ implicitly initialized to the empty string$/;"	m	class:Sales_item
+compareIsbn	Sales_item.h	/^inline bool compareIsbn(const Sales_item &lhs, const Sales_item &rhs) $/;"	f
+isbn	Sales_item.h	/^    std::string isbn() const { return bookNo; }$/;"	f	class:Sales_item
+lround	Version_test.h	/^inline long lround(double d)$/;"	f
+main	add_item.cpp	/^int main()$/;"	f
+operator !=	Sales_item.h	/^inline bool operator!=(const Sales_item &lhs, const Sales_item &rhs)$/;"	f
+operator +	Sales_item.h	/^Sales_item operator+(const Sales_item& lhs, const Sales_item& rhs) $/;"	f
+operator +=	Sales_item.h	/^Sales_item& Sales_item::operator+=(const Sales_item& rhs) $/;"	f	class:Sales_item
+operator <<	Sales_item.h	/^std::ostream& operator<<(std::ostream& out, const Sales_item& s)$/;"	f
+operator ==	Sales_item.h	/^inline bool operator==(const Sales_item &lhs, const Sales_item &rhs)$/;"	f
+operator >>	Sales_item.h	/^std::istream& operator>>(std::istream& in, Sales_item& s)$/;"	f
+revenue	Sales_item.h	/^    double revenue = 0.0;$/;"	m	class:Sales_item
+revenue	Sales_item.h	/^    double revenue;$/;"	m	class:Sales_item
+units_sold	Sales_item.h	/^    unsigned units_sold = 0; \/\/ explicitly initialized$/;"	m	class:Sales_item
+units_sold	Sales_item.h	/^    unsigned units_sold;$/;"	m	class:Sales_item
