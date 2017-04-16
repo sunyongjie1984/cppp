@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 #include "Sales_data.h"
 
 using std::cerr;
