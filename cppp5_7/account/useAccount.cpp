@@ -13,6 +13,12 @@ int main()
     a1.calculate();
     cout << a1.balance() << endl;
 
+#ifdef __WIN32
     system("pause");
+#elif defined __WIN64
+    system("pause");
+#elif defined __linux || defined __APPLE__
+    getchar( );
+#endif
     return 0;
 }
